@@ -32,7 +32,7 @@ I use [SemVer](http://semver.org/) for versioning.
 
 ## Authors
 
-* **Josué Cubero Sánchez** - *Initial work* - [PurpleBooth](https://github.com/JosueCuberoSanchez)
+* **Josué Cubero Sánchez** - *Initial work* - [GitHub](https://github.com/JosueCuberoSanchez), [LinkedIn](nkedin.com/in/josuecuberosanchez/)
 
 ## License
 
