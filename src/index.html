@@ -1,17 +1,115 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Boostrap layout practice</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
-</head>
-<body>
-    <header>Header</header>
-    <main>Main</main>
-    <footer>Footer</footer>
+<!doctype html>
+<html lang="EN">
 
-    <script src="main.js"></script>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Bootstrap layout practice</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+
+<header>
+    <section>
+        <div class="container-fluid">
+            <nav class="navbar navbar-default">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <a class="navbar-brand" href="#">WebSiteName</a>
+                    </div>
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="#">Home</a></li>
+                        <li><a href="#">Page 1</a></li>
+                        <li><a href="#">Page 2</a></li>
+                        <li><a href="#">Page 3</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </section>
+</header>
+<main>
+    <section> <!--Logo & nav menu-->
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-xs-6 col-sm-1 col-md-1 col-lg-1">
+                    <p>Logo</p>
+                </div>
+                <div class="col-xs-6 col-sm-3 col-sm-offset-8 col-md-2 col-md-offset-9 col-lg-2 col-lg-offset-9">
+                    <p class="navigation-menu">Navigation menu</p>
+                </div>
+            </div>
+            <div class="info-box">
+                <p>Container</p>
+            </div>
+        </div>
+    </section>
+    <section> <!--Info boxes-->
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-xs-12 col-sm-6 col-md-9 col-lg-10"><!--small height boxes-->
+                    <div class="row"><!--small width boxes-->
+                        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
+                            <div class="info-box">
+                                <p>Info box</p>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
+                            <div class="info-box">
+                                <p>Info box</p>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
+                            <div class="info-box">
+                                <p>Info box</p>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
+                            <div class="info-box">
+                                <p>Info box</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row"><!--medium width boxes-->
+                        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                            <div class="info-box">
+                                <p>Info box</p>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                            <div class="info-box">
+                                <p>Info box</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-3 col-lg-2">
+                    <div class="info-box info-box-large">
+                        <p>Info box</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+<footer>
+    <section>
+        <div class="info-box">
+            <p>Container</p>
+        </div>
+    </section>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+<script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="js/main.js"></script>
 </body>
 </html>
